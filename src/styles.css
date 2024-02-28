@@ -9,7 +9,7 @@ body {
   margin: 45px auto;
   padding: 30px;
   background-color: #f3f3f8;
-  border-radius: 6px;
+  border-radius: 16px;
   border: 1px solid #cccccc;
 }
 /*background-color: #cfcfd7;
@@ -62,17 +62,20 @@ header {
 .weather-app-temp-container {
   display: flex;
 }
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+  margin-right: -45px;
+}
 .weather-app-temp {
-  font-size: 80px;
+  font-size: 88px;
   font-weight: bold;
   color: #1a237e;
+  line-height: 88px;
 }
-.weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-}
+
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
   color: #1a237e;
 }
