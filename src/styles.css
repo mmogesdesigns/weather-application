@@ -24,9 +24,24 @@ header {
   background-color: rgb(198, 225, 235);
   border: none;
   border-radius: 6px;
-  width: 80%;
+  /*width: 80%;*/
   font-size: 16px;
   padding: 15px 20px;
+}
+@media (min-width: 375px) {
+  .search-form-input {
+    width: 50%;
+  }
+}
+@media (min-width: 600px) {
+  .search-form-input {
+    width: 60%;
+  }
+}
+@media (min-width: 700px) {
+  .search-form-input {
+    width: 80%;
+  }
 }
 .search-form-btn {
   background-color: #1976d2;
